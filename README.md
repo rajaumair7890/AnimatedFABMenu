@@ -1,11 +1,12 @@
 # AnimatedFABMenu
 
 <p align="center">
-  <img src="AnimatedFABMenu.gif" alt="Screenshot 1" width="248" height="268"/>
+  [Screen_recording_20240902_023155.webm](https://github.com/user-attachments/assets/cf20c46e-0fcd-4909-bb5a-5c75bb6d1c4d)
 </p>
 
 A Custom Android UI component, Build with Jetpack Compose, allows you to add a beautiful material 3 designed floating menu,
-which can be shown or hidden with beautiful animations by pressing the attached FAB.. 
+
+which can be shown or hidden with beautiful animations by pressing the attached FAB.
 
 ## Copyright 2023 Umair Abdullah
 
