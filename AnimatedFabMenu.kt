@@ -1,4 +1,4 @@
-package com.geetmusic.geet.ui.libraryScreens.playlist
+package com.codingWithUmair.AnimatedFabMenu
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -47,25 +47,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.geetmusic.geet.R
-
-val itemsList = listOf(
-FabItem(
-icon = R.drawable.round_shuffle_24,
-text = R.string.shuffle
-),
-FabItem(
-icon = R.drawable.round_play_arrow_24,
-text = R.string.play_all
-)
-)
 
 @Composable
 fun AnimatedFabMenu(
-	@DrawableRes icon: Int = R.drawable.round_playlist_play_24,
-	@StringRes text: Int = R.string.play,
-	items: List<FabItem> = itemsList,
-	onItemClick: (FabItem) -> Unit = {},
+	@DrawableRes icon: Int,
+	@StringRes text: Int,
+	items: List<FabItem>,
+	onItemClick: (FabItem) -> Unit,
 	fabColor: Color = MaterialTheme.colorScheme.tertiary,
 	menuColor: Color = MaterialTheme.colorScheme.surfaceVariant,
 	expandedWidth: Dp = 140.dp,
@@ -231,13 +219,13 @@ fun AnimatedFabMenu(
 
 }
 
-@Preview(showBackground = true, showSystemUi = true)
-@Composable
-fun FabPreview(){
-	Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center){
-		AnimatedFabMenu()
-	}
-}
+// @Preview(showBackground = true, showSystemUi = true)
+// @Composable
+// fun FabPreview(){
+// 	Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center){
+// 		AnimatedFabMenu()
+// 	}
+// }
 
 data class FabItem(
 	@DrawableRes val icon: Int,
