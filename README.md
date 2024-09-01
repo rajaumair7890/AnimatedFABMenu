@@ -1,7 +1,7 @@
 # AnimatedFABMenu
 
 <p align="center">
-  <img src="AnimatedFABMenu.gif" alt="Screenshot 1" width="258" height="376"/>
+  <img src="AnimatedFABMenu.gif" alt="Screenshot 1" width="248" height="268"/>
 </p>
 
 A Custom Android UI component, Build with Jetpack Compose, allows you to add a beautiful material 3 designed floating menu,
