@@ -1,8 +1,7 @@
 # AnimatedFABMenu
 
-<p align="center">
+
   [Screen_recording_20240902_023155.webm](https://github.com/user-attachments/assets/cf20c46e-0fcd-4909-bb5a-5c75bb6d1c4d)
-</p>
 
 A Custom Android UI component, Build with Jetpack Compose, allows you to add a beautiful material 3 designed floating menu,
 
