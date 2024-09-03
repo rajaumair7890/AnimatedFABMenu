@@ -1,5 +1,7 @@
 # AnimatedFABMenu
 
+### This gif is slowed by 40% for showcase.
+
 <p align="center">
   <img src="AnimatedFABMenu.gif" alt="Screenshot 1" width="248" height="268"/>
 </p>
